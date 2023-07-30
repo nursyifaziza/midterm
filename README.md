@@ -1,6 +1,7 @@
 # Mid-Term Project (Backend)
 
 **1️⃣ Database Structure**
+----
 * Video
 ```
 {
@@ -31,6 +32,7 @@
 ```
 
 **2️⃣ API Structure**
+----
 | HTTP Verb    | Endpoint           | Actions                          |
 | :---         | :---               | :---                             |
 | GET          | /api/videos        | Get all videos                   |
@@ -40,6 +42,7 @@
 | POST         | /api/comments/:id  | Post a comment on a video        |
 
 **3️⃣ List of API Contracts**
+----
 **GET /videos**
 ----
   Returns all videos.
@@ -143,5 +146,20 @@
 * **Code:** 200  
   **Content:**  `{ <comment_object> }`
 * **Error Response:**  
-* **Code:** 400 
-**Content:** `{ "message" : "Comment is invalid" }`
+  * **Code:** 400 
+  **Content:** `{ "message" : "Comment is invalid" }`
+
+**4️⃣ How to Run in Local**
+----
+* Clone this repository
+```
+git clone https://github.com/nursyifaziza/midterm
+```
+* Install the dependencies
+```
+npm install
+```
+* Run the server
+```
+npm start
+```
