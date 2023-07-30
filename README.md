@@ -105,7 +105,7 @@
   * **Code:** 404  
   **Content:** `{ "message" : "Currently, there are no products associated with this video" }`
 
-  **GET /comments/:id**
+**GET /comments/:id**
 ----
   Returns all comments associated with the specified video.
 * **URL Params**  
